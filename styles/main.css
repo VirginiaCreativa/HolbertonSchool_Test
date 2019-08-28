@@ -27,11 +27,11 @@ aside {
   order: 2;
 }
 /* ======== ARTICLE ======== */
-article .title {
+article .title_home {
   margin-bottom: 30px;
   text-transform: uppercase;
 }
-article .title::before {
+article .title_home::before {
   content: "";
   display: block;
   border-bottom: 1px solid var(--gray);
@@ -39,6 +39,23 @@ article .title::before {
   width: 84%;
   right: 0;
   top: 16px;
+}
+
+article .title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+}
+
+article .title::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid var(--gray);
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  top: 10px;
 }
 
 /* ======== POSTS ======== */
@@ -120,4 +137,27 @@ footer a {
 }
 .footer_logo img {
   height: 45px;
+}
+
+/* ======== CONTENT GUIDED ======== */
+.section_guided p {
+  line-height: 2;
+  margin-bottom: 10px;
+}
+.section_guided h2 {
+  margin: 20px 0 20px 0;
+}
+
+.section_guided h2::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid var(--light);
+  position: relative;
+  width: 100%;
+}
+
+blockquote {
+  background-color: #eee;
+  padding: 20px;
+  border-left: 2px solid #f80002;
 }
