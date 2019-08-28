@@ -103,3 +103,21 @@ article .title::before {
 .posts_content_meta ul li:last-child::after {
   display: none;
 }
+
+/* ======== FOOTER ======== */
+footer {
+  background-color: var(--light);
+  padding: 40px 0;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer a {
+  color: #f80002;
+  font-weight: 300;
+}
+.footer_logo img {
+  height: 45px;
+}
