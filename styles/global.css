@@ -18,7 +18,7 @@
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: #f8f9fa;
+  --light: #f1f3f5;
   --dark: #444c53;
 }
 
@@ -83,6 +83,9 @@ a {
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
+}
+a:hover {
+  color: #0467d1;
 }
 
 .container {
