@@ -4,7 +4,6 @@ main {
   margin-right: auto;
   margin-left: auto;
 }
-
 main {
   display: flex;
   /* flex-flow: row wrap; */
@@ -24,4 +23,28 @@ article {
 }
 aside {
   order: 2;
+}
+/* ======== ARTICLE ======== */
+article .title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+article h1 {
+  font-family: Merriweather, serif;
+}
+/* ======== POSTS ======== */
+.posts {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 20px;
+}
+.posts_img {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.posts_img img {
+  max-width: 100%;
+  height: auto;
 }
