@@ -6,11 +6,21 @@
 }
 
 .slider .container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
 
 .slider_content {
+  text-align: center;
+}
+.slider_content h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.slider_content p {
+  line-height: 35px;
 }
 
 .slider_imagen img {
