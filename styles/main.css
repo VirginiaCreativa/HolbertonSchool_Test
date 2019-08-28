@@ -10,7 +10,8 @@ main {
   flex-direction: row;
 }
 main > * {
-  padding: 0 10px;
+  margin: 0 20px;
+  box-sizing: border-box;
 }
 main > article {
   flex: 1 80%;
@@ -19,6 +20,7 @@ main > aside {
   flex: 3 20%;
 }
 article {
+  position: relative;
   order: 1;
 }
 aside {
@@ -29,9 +31,16 @@ article .title {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
-article h1 {
-  font-family: Merriweather, serif;
+article .title::before {
+  content: "";
+  display: block;
+  border-bottom: 1px solid var(--gray);
+  position: absolute;
+  width: 84%;
+  right: 0;
+  top: 16px;
 }
+
 /* ======== POSTS ======== */
 .posts {
   margin-bottom: 10px;
