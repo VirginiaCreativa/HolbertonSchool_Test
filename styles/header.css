@@ -22,8 +22,12 @@ header .logo .logo_icon {
 }
 
 header .logo h1 {
-  font-weight: 100;
-  color: var(--gray);
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 20px;
+  position: relative;
+  top: 8px;
+  color: #55708f;
 }
 
 .nav ul {
