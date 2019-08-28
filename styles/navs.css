@@ -1,0 +1,53 @@
+header {
+  padding-left: 0;
+  margin-bottom: 0;
+  height: 80px;
+  align-content: center;
+  align-items: center;
+  border-bottom: 1px solid #d7dde4;
+}
+
+header .container {
+  display: flex;
+}
+
+header .logo {
+  display: flex;
+}
+
+header .logo .icon {
+  height: 40px;
+}
+
+header .logo h1 {
+  font-weight: 100;
+  color: var(--gray);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  float: left;
+  margin: 0 10px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  font-weight: 300;
+  color: var(--gray);
+}
+
+nav ul li a.active {
+  color: var(--blue);
+}

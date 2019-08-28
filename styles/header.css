@@ -1,0 +1,59 @@
+header {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding-left: 0;
+  margin-bottom: 0;
+  height: 80px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  display: flex;
+}
+
+header .logo .logo_icon {
+  height: 40px;
+}
+
+header .logo h1 {
+  font-weight: 100;
+  color: var(--gray);
+}
+
+.nav ul {
+  height: 40px;
+  list-style: none;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav ul li {
+  float: left;
+  margin: 0 10px;
+}
+
+.nav ul li:first-child {
+  margin-left: 0;
+}
+
+.nav ul li:last-child {
+  margin-right: 0;
+}
+
+.nav ul li a {
+  color: var(--gray);
+  font-weight: 300;
+}
+
+.nav ul li a.active {
+  color: var(--blue);
+  font-weight: 300;
+}

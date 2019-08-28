@@ -1,0 +1,18 @@
+.slider {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 500px;
+}
+
+.slider .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.slider_content {
+}
+
+.slider_imagen img {
+  height: 493px;
+}
