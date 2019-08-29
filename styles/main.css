@@ -161,3 +161,7 @@ blockquote {
   padding: 20px;
   border-left: 2px solid #f80002;
 }
+
+.section_thumbnail img {
+  max-height: 100px;
+}
