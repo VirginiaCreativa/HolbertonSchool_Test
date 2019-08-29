@@ -25,6 +25,9 @@ article {
 }
 aside {
   order: 2;
+  background-color: var(--light);
+  padding: 20px;
+  border-radius: 4px;
 }
 /* ======== ARTICLE ======== */
 article .title_home {
@@ -207,4 +210,11 @@ blockquote {
   height: 100%;
   width: 100%;
   z-index: 2;
+}
+
+/* ======== CONTENT TWEETS ======== */
+.section_tweets {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
 }

@@ -93,3 +93,6 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
 }
+.fb_iframe_widget {
+  top: -5px;
+}
