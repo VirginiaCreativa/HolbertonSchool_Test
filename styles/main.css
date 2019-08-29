@@ -174,17 +174,37 @@ blockquote {
   position: absolute;
 }
 .section_popup_on {
-  display: block;
+  display: flex;
   position: absolute;
-  background-color: #fff;
-  padding: 20px;
-  z-index: 999;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  z-index: 9999;
   left: 0;
   right: 0;
+  top: 0;
   width: 640px;
   margin-left: auto;
   margin-right: auto;
 }
 .section_popup_on img {
   height: 400px;
+}
+.section_popup_on button .bx {
+  font-size: 20px;
+}
+.section_popup_bg {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.section_popup_bgOverly {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
 }
